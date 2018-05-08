@@ -1,0 +1,77 @@
+/* @font-face {
+    font-family: 'populaire';
+    src: url('../fonts/populaire.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Buckley';
+    src: local('Buckley'),
+         url('../fonts/buckley.woff2') format('woff2'),
+         url('../fonts/buckley.woff') format('woff');
+    font-weight: normal;
+    font-style: normal
+}*/
+
+* {
+    box-sizing: border-box;
+    outline: none
+}
+
+html {
+    background-color: #ededed
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: $body-font-family;
+    line-height: 1;
+    margin: 0;
+    color: $body-font-color;
+    padding-top: 85px
+}
+
+a {
+    text-decoration: none
+}
+
+figure {
+    margin: 0
+}
+
+img {
+    max-width: 100%
+}
+
+p {
+    margin-top: 0
+}
+
+.center {
+    text-align: center
+}
+
+.green {
+    color: $green
+}
+
+.orange {
+    color: $orange
+}
+
+.purple {
+    color: $purple
+}
+
+.brown {
+    color: $brown
+}
+
+.yellow {
+    color: $yellow
+}
+
+.orange {
+    color: $orange
+}
