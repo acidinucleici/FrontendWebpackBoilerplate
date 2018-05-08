@@ -1,15 +1,5 @@
-@import "settings";
-@import "utils";
-
-@import "mixins/breakpoint";
-@import "mixins/grid";
-
-@import "global";
-@import "typography";
-@import "animations";
-
-@import "site";
-
 div {
+	transform: translateY(-50%);
 	border-radius: 2px;
+	transition: transform 1s ease-out;
 }
